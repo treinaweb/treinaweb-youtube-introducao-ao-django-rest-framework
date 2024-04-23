@@ -1,1 +1,10 @@
 GET http://localhost:8000/api/skills/
+
+###
+
+POST http://localhost:8000/api/skills/
+Content-Type: application/json
+
+{
+    "name": "ASP.NET"
+}
