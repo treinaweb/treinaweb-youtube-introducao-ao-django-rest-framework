@@ -6,21 +6,21 @@ POST http://localhost:8000/api/skills/
 Content-Type: application/json
 
 {
-    "name": "ASP.NET"
+    "name": "Oracle"
 }
 
 
 ###
 
-GET http://localhost:8000/api/skills/20
+GET http://localhost:8000/api/skills/2
 
 ###
 
-DELETE http://localhost:8000/api/skills/5/
+DELETE http://localhost:8000/api/skills/10/
 
 ###
 
-PUT http://localhost:8000/api/skills/60/
+PUT http://localhost:8000/api/skills/6/
 Content-Type: application/json
 
 {

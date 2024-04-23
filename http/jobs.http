@@ -1,0 +1,33 @@
+GET http://localhost:8000/api/jobs/
+
+###
+
+POST http://localhost:8000/api/jobs/
+Content-Type: application/json
+
+{
+    "title": "Desenvolvedor Java Júnior",
+    "description": "Descrição dessa vaga",
+    "salary": 3000,
+    "skills": [3, 4]
+}
+
+###
+
+GET http://localhost:8000/api/jobs/1/
+
+###
+
+PUT http://localhost:8000/api/jobs/2/
+Content-Type: application/json
+
+{
+    "title": "Desenvolvedor Java Pleno",
+    "description": "Descrição dessa vaga",
+    "salary": 8000,
+    "skills": [3, 4]
+}
+
+###
+
+DELETE http://localhost:8000/api/jobs/1/
