@@ -8,3 +8,21 @@ Content-Type: application/json
 {
     "name": "ASP.NET"
 }
+
+
+###
+
+GET http://localhost:8000/api/skills/20
+
+###
+
+DELETE http://localhost:8000/api/skills/5/
+
+###
+
+PUT http://localhost:8000/api/skills/60/
+Content-Type: application/json
+
+{
+    "name": "PHP"
+}
